@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <body class="main-bgcolor main-font-color">
+        <div class="todo-container">
+            <h1 class="main-header">To-DO APP</h1>
+        </div>
+        <div id="tasks-row">
+            <div class="new task">
+                <div class="task-header">
+                    You have <span id="taskNumber">no</span> pending task
+                </div>
+                <div class="tasks-list">
+                    <div class="scrollable">
+                        <ul class="shown-items" id="task_list"></ul>
+                        <form action="" style="position: inherit;" id="addTask">
+                            <input class="todo main-bgcolor main-font-color" type="text" id="taskInput" placeholder="Add task">
+                            <input id="submit" type="submit" class="add-task-button main-font-color" value="Add Task">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+
+</html>
